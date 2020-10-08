@@ -1,0 +1,71 @@
+h1 {
+    color: goldenrod;
+    text-align: center;
+    font-size: 40px;
+}
+
+h2 {
+    color: palegoldenrod;
+    text-align: center;
+}
+
+body {
+    background-color: gray;
+    text-align: left;
+    font-family: monospace;
+    font-size: 16px;
+}
+
+a:link {
+    text-align: left;
+    margin-left: 10px;
+    color: palegoldenrod;
+}
+
+a:visited {
+    text-align: left;
+    margin-left: 10px;
+    color: palegoldenrod;
+}
+
+a:hover {
+    color:goldenrod
+}
+
+
+.menu {
+    display: inline-block;
+    margin-left: 470px;
+    text-align: center;
+}
+
+.menu ul{
+    list-style: none;
+}
+
+.menu li{
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+
+.content {
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 50px;
+    margin-bottom: 150px;
+    outline-width: 5px;
+    outline-color: white;
+    outline-style: solid;
+    background-color: darkgray;
+    padding-bottom: 70%;
+}
+
+.entry{
+    position: relative;
+    left: 15px;
+    top: 10px;
+    width: 95%;
+    word-wrap: break-word;
+}

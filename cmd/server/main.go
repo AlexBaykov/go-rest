@@ -29,7 +29,7 @@ func main() {
 		log.Fatal("Error while reading config file!")
 	}
 
-	config := &server.Config{}
+	config := server.NewConfig()
 	err = json.Unmarshal(byteConfig, config)
 	if err != nil {
 		log.Fatal("Error while reading config file!")
